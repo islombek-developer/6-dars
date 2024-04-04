@@ -1,8 +1,8 @@
-def f(x,y):
+def f(t,d):
     s=''
-    if len(x) > len(y):
-        s+=x[len(y):]
-    elif len(x) < len(y):
-        s+=y[len(x):]
+    if len(t) > len(d):
+        s+=t[len(d):]
+    elif len(t) < len(d):
+        s+=d[len(t):]
     return s
-print(f('aaa' ,'aa'))
+print(f('abcde' ,'abcd'))

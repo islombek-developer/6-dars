@@ -10,5 +10,5 @@ def f(s):
             d += 1
         else:
             result += i
-    return result,d
-print(f("leetcode"))  
+    return result
+print(f("salom"))  
