@@ -1,3 +1,5 @@
+# qo'shimcha
+
 # def f(x):
 #     return sum(i in "a,i,o,u,e" for i in x)
 # a="salom,qale,bolyapi"
@@ -8,10 +10,10 @@
 #     result = ''
 #     for i in x:
 #         if i in vowels:
-#             result += '1'
-#         else:
-#             result += '0'
-#     return result
+#             result+=i
+#         # else:
+#         #     result += '0'
+#     result[::-1]
 
 # d = "salom"
 # print(f(d)) 
