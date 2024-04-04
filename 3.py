@@ -1,5 +1,5 @@
 def f(date):
-    year, month, day = map(int, date.split('-'))
+    year, month, day = map(int, date.split('.'))
     a = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334]
     b = [0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335]
     
@@ -8,5 +8,5 @@ def f(date):
     else:
         return a[month - 1] + day
 
-sana = "2000-07-09"
+sana = "2000.07.09"
 print(f(sana))  
